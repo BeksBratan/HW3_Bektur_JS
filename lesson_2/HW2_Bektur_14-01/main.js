@@ -31,7 +31,7 @@
 // **** и так далее
 
 let line = '*'
-while(line.length < 7){
+while(line.length < 8){
     console.log(line);
     line = line + '*'
 }
@@ -49,11 +49,11 @@ const allNumber = []
 
 for(let n = 1; n < 100; n++){
     if(n % 3 === 0 && n % 5 === 0 ){
-       allNumber.push('FizzBuzz');
+       allNumber.push(n + '-FizzBuzz');
     }else if(n % 3 === 0 ){
-        allNumber.push("Fizz");
+        allNumber.push(n + "-Fizz");
     }else if(n % 5 === 0 ){
-        allNumber.push("Buzz");
+        allNumber.push(n + "-Buzz");
     }else{
         allNumber.push(n);
     }
