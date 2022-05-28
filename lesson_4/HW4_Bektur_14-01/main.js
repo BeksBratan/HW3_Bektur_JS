@@ -19,6 +19,7 @@ inc[0].onclick = () => {
     state[0].style.color = 'green'
 }
 
+
 dec[0].onclick = () => {
     label --
     state[0].innerText = label
@@ -29,3 +30,4 @@ restart[0].onclick = () => {
     state[0].innerText = label = 0
     state[0].style.color = 'black'
 }
+
